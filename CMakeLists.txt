@@ -10,7 +10,7 @@ message(STATUS "System: ${CMAKE_SYSTEM_NAME}")
 
 
 if(WIN32)
-    add_executable(IWallpaperChangerWindows source/winmain.cpp ${COMMON_SOURCES})
+    add_executable(IWallpaperChangerWindows source/mainwin.cpp ${COMMON_SOURCES})
     set_target_properties(IWallpaperChangerWindows PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/windows OUTPUT_NAME "IWallpaperChangerWindows")
     target_include_directories(IWallpaperChangerWindows PRIVATE source)
 endif()

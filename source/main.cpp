@@ -47,7 +47,7 @@ int Main::run(std::string _platform){
     // Obtaining all photos within the current day
     if(std::filesystem::exists(currentDayDirectory) && std::filesystem::is_directory(currentDayDirectory)){
         for(const std::filesystem::directory_entry entry : std::filesystem::directory_iterator(currentDayDirectory)){
-            if ((std::string)entry.path().extension().c_str() == ".jpg" || (std::string)entry.path().extension().c_str() == ".jpeg" || (std::string)entry.path().extension().c_str() == ".png"){
+            if ((std::string)entry.path().extension().string() == ".jpg" || (std::string)entry.path().extension().string() == ".jpeg" || (std::string)entry.path().extension().string() == ".png"){
                 selectedImages.emplace_back(entry);
             }
         }
@@ -73,7 +73,7 @@ int Main::run(std::string _platform){
                 image = item;
                 break;
             }
-            std::string filename = (std::string)item.path().filename().c_str();
+            std::string filename = (std::string)item.path().filename().string();
             if (lastPhoto == filename){
                 if(selectedImages.back() == item)
                 {
@@ -94,11 +94,10 @@ int Main::run(std::string _platform){
     // Passing image to be displayed
     OSManagerFactory* factory = new OSManagerFactory();
     OSManager* manager = factory->CreateOSManager(_platform);
-    std::cout << image.path() << std::endl;
     manager->ChangeWallpaper(image);
 
     // Setting last image display as current image
-    std::string filename = (std::string)image.path().filename().c_str();
+    std::string filename = (std::string)image.path().filename().string();
     std::cout << filename << std::endl;
     std::ofstream writeFile(TxtPath);
     writeFile.clear();
