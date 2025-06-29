@@ -1,0 +1,164 @@
+[
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/maingnome.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/maingnome.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/maingnome.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/maingnome.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/osmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/osmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/osmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/osmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/osmanagerfactory.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/osmanagerfactory.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/osmanagerfactory.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/osmanagerfactory.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/main.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/main.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/main.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/winosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/winosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/winosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/winosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/gnomeosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/gnomeosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/gnomeosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/gnomeosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/kdeosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/kdeosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/kdeosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/kdeosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/xfceosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/xfceosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/xfceosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/xfceosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerGnome.dir/source/macosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/macosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/macosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerGnome.dir/source/macosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/mainkde.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/mainkde.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/mainkde.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/mainkde.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/osmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/osmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/osmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/osmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/osmanagerfactory.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/osmanagerfactory.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/osmanagerfactory.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/osmanagerfactory.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/main.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/main.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/main.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/winosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/winosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/winosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/winosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/gnomeosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/gnomeosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/gnomeosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/gnomeosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/kdeosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/kdeosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/kdeosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/kdeosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/xfceosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/xfceosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/xfceosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/xfceosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerKDE.dir/source/macosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/macosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/macosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerKDE.dir/source/macosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/mainxfce.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/mainxfce.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/mainxfce.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/mainxfce.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/osmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/osmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/osmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/osmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/osmanagerfactory.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/osmanagerfactory.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/osmanagerfactory.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/osmanagerfactory.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/main.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/main.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/main.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/winosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/winosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/winosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/winosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/gnomeosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/gnomeosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/gnomeosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/gnomeosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/kdeosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/kdeosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/kdeosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/kdeosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/xfceosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/xfceosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/xfceosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/xfceosmanager.cpp.o"
+},
+{
+  "directory": "/home/cold/Projects/IWallpaperChanger/build",
+  "command": "/usr/bin/c++  -I/home/cold/Projects/IWallpaperChanger/source -g -std=gnu++20 -o CMakeFiles/IWallpaperChangerXFCE.dir/source/macosmanager.cpp.o -c /home/cold/Projects/IWallpaperChanger/source/macosmanager.cpp",
+  "file": "/home/cold/Projects/IWallpaperChanger/source/macosmanager.cpp",
+  "output": "CMakeFiles/IWallpaperChangerXFCE.dir/source/macosmanager.cpp.o"
+}
+]

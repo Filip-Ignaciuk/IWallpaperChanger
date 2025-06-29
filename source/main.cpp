@@ -43,13 +43,6 @@ int Main::run(std::string _platform){
         }
     }
 
-    std::filesystem::path mainFilePath = currentDirectory / "main.txt";
-    if(!std::filesystem::exists(mainFilePath)){
-        std::ofstream file(mainFilePath);
-            file << "Change wallpaper on startup on same weekday (e.g. starting up on monday would cycle through two images if 1) : 0" << std::endl;
-            file.close();
-    }
-
 
     // Obtaining all photos within the current day
     if(std::filesystem::exists(currentDayDirectory) && std::filesystem::is_directory(currentDayDirectory)){
