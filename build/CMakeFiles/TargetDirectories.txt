@@ -1,5 +1,0 @@
-/home/cold/Projects/IWallpaperChanger/build/CMakeFiles/IWallpaperChangerGnome.dir
-/home/cold/Projects/IWallpaperChanger/build/CMakeFiles/IWallpaperChangerKDE.dir
-/home/cold/Projects/IWallpaperChanger/build/CMakeFiles/IWallpaperChangerXFCE.dir
-/home/cold/Projects/IWallpaperChanger/build/CMakeFiles/edit_cache.dir
-/home/cold/Projects/IWallpaperChanger/build/CMakeFiles/rebuild_cache.dir
