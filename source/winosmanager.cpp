@@ -6,7 +6,7 @@
 
 void WinOSManager::ChangeWallpaper(std::filesystem::directory_entry _entry) const{
     // Setting wallpaper with Windows API
-    std::wstring wideString = _entry.path().wstring();
+    std::wstring widePath = _entry.path().wstring();
 
     SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0,  (void*)widePath.c_str(),  SPIF_UPDATEINIFILE | SPIF_SENDCHANGE);
 }

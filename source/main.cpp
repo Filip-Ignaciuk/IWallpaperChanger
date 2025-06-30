@@ -52,7 +52,7 @@ int Main::run(std::string _platform){
     bool isLastImageReal = false;
     if(std::filesystem::exists(currentDayDirectory) && std::filesystem::is_directory(currentDayDirectory)){
         for(const std::filesystem::directory_entry entry : std::filesystem::directory_iterator(currentDayDirectory)){
-            if ((std::string)entry.path().extension().c_str() == ".jpg" || (std::string)entry.path().extension().c_str() == ".jpeg" || (std::string)entry.path().extension().c_str() == ".png"){
+            if ((std::string)entry.path().extension().string() == ".jpg" || (std::string)entry.path().extension().string() == ".jpeg" || (std::string)entry.path().extension().string() == ".png"){
                 selectedImages.emplace_back(entry);
                 if (lastPhoto == entry.path().filename()){
                     isLastImageReal = true;
@@ -78,7 +78,7 @@ int Main::run(std::string _platform){
                 image = item;
                 break;
             }
-            std::string filename = (std::string)item.path().filename().c_str();
+            std::string filename = (std::string)item.path().filename().string();
             if (lastPhoto == filename){
                 if(selectedImages.back() == item)
                 {
