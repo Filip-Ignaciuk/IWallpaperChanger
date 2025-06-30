@@ -15,6 +15,7 @@ int Main::run(std::string _platform){
     std::vector<std::filesystem::directory_entry> selectedImages;
     std::string lastPhoto;
     std::filesystem::directory_entry image;
+    bool hasPhoto = true;
 
 
     // Obtaining the current day
@@ -94,13 +95,19 @@ int Main::run(std::string _platform){
         {
             image = selectedImages[0];
         }
+        else{
+            hasPhoto = false;
+        }
         lastPhoto = "null.null";
     }
 
-    // Passing image to be displayed
-    OSManagerFactory* factory = new OSManagerFactory();
-    OSManager* manager = factory->CreateOSManager(_platform);
-    manager->ChangeWallpaper(image);
+    if(hasPhoto){
+        // Passing image to be displayed
+        OSManagerFactory* factory = new OSManagerFactory();
+        OSManager* manager = factory->CreateOSManager(_platform);
+        manager->ChangeWallpaper(image);
+    }
+    
 
     // Setting last image display as current image
     std::string filename = (std::string)image.path().filename().c_str();
