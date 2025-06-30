@@ -110,7 +110,7 @@ int Main::run(std::string _platform){
     
 
     // Setting last image display as current image
-    std::string filename = (std::string)image.path().filename().c_str();
+    std::string filename = (std::string)image.path().filename().string();
     std::ofstream writeFile(TxtPath);
     writeFile.clear();
     writeFile << filename << std::endl;
