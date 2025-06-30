@@ -43,12 +43,20 @@ int Main::run(std::string _platform){
         }
     }
 
+    // Obtaining last photo that was displayed on that weekday and the date it was displayed
+    std::ifstream readFile(TxtPath);
+    std::getline(readFile, lastPhoto);
+    readFile.close();
 
     // Obtaining all photos within the current day
+    bool isLastImageReal = false;
     if(std::filesystem::exists(currentDayDirectory) && std::filesystem::is_directory(currentDayDirectory)){
         for(const std::filesystem::directory_entry entry : std::filesystem::directory_iterator(currentDayDirectory)){
             if ((std::string)entry.path().extension().c_str() == ".jpg" || (std::string)entry.path().extension().c_str() == ".jpeg" || (std::string)entry.path().extension().c_str() == ".png"){
                 selectedImages.emplace_back(entry);
+                if (lastPhoto == entry.path().filename()){
+                    isLastImageReal = true;
+                }
             }
         }
     }
@@ -58,14 +66,11 @@ int Main::run(std::string _platform){
         return 0;
     }
     
-    // Obtaining last photo that was displayed on that weekday and the date it was displayed
-    std::ifstream readFile(TxtPath);
-    std::getline(readFile, lastPhoto);
-    readFile.close();
+    
 
     // Finding next image to display
 
-    if(lastPhoto != "null.null"){
+    if(lastPhoto != "null.null" && isLastImageReal){
         bool next = false;
         for(std::filesystem::directory_entry item : selectedImages){
             if (next)
@@ -89,17 +94,16 @@ int Main::run(std::string _platform){
         {
             image = selectedImages[0];
         }
+        lastPhoto = "null.null";
     }
 
     // Passing image to be displayed
     OSManagerFactory* factory = new OSManagerFactory();
     OSManager* manager = factory->CreateOSManager(_platform);
-    std::cout << image.path() << std::endl;
     manager->ChangeWallpaper(image);
 
     // Setting last image display as current image
     std::string filename = (std::string)image.path().filename().c_str();
-    std::cout << filename << std::endl;
     std::ofstream writeFile(TxtPath);
     writeFile.clear();
     writeFile << filename << std::endl;
